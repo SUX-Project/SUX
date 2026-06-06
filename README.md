@@ -1,11 +1,27 @@
 # SUX
 
-SUX is a low-budget meme token experiment: an $80 challenge, public receipts, a fixed target supply of 1,000,000,000 SUX with 2 decimals, and no profit promises.
+SUX is a low-budget meme token experiment: an $80 challenge, public receipts, a live 1,000,000,000 SUX supply with 6 on-chain decimals, and no profit promises.
 
 Chinese implementation guide: [`IMPLEMENTATION.zh-CN.md`](IMPLEMENTATION.zh-CN.md)
 Token launch guide: [`TOKEN_LAUNCH.zh-CN.md`](TOKEN_LAUNCH.zh-CN.md)
+Founder ops guide: [`FOUNDER_OPS.zh-CN.md`](FOUNDER_OPS.zh-CN.md)
 Token config: [`token/sux-token-config.json`](token/sux-token-config.json)
 Metadata template: [`metadata/sux.json`](metadata/sux.json)
+
+## Live token
+
+Mint address: `7bt7HpApyRY6Nkdv1D9LfG6Fg8LufSdmAcsX5mbYpump`
+Pump.fun: https://pump.fun/coin/7bt7HpApyRY6Nkdv1D9LfG6Fg8LufSdmAcsX5mbYpump
+DexScreener: https://dexscreener.com/solana/4fd9voebpr4jgtmhcw2iwpbv9pudkcq4syfpthkhhcfo
+On-chain metadata: https://ipfs.io/ipfs/bafkreiarnud7cmjc236k5lo5blxwkrgxazoq7fxwqmrrosdex6lmnfq55y
+
+On-chain status:
+
+- Supply: `1,000,000,000 SUX`
+- Decimals: `6`
+- Mint authority: revoked
+- Freeze authority: none
+- Metadata update authority: none
 
 ## What the first $10 is for
 
@@ -42,8 +58,8 @@ Add these before launch:
 
 - Project wallet:
 - Test transaction:
-- Token address:
-- Token metadata: https://sux-project.github.io/SUX/metadata/sux.json
+- Token address: 7bt7HpApyRY6Nkdv1D9LfG6Fg8LufSdmAcsX5mbYpump
+- Token metadata: https://ipfs.io/ipfs/bafkreiarnud7cmjc236k5lo5blxwkrgxazoq7fxwqmrrosdex6lmnfq55y
 - Social channel:
 - Budget sheet:
 

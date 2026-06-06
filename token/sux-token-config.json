@@ -1,24 +1,39 @@
 {
   "project": "SUX",
-  "recommendedRoute": "manual-spl-for-strict-decimals-2",
+  "recommendedRoute": "pump.fun-live",
   "chain": "Solana",
   "tokenStandard": "SPL token with metadata",
   "name": "SUX",
   "symbol": "SUX",
   "description": "SUX is an entertainment-only meme token experiment built around an $80 public budget challenge. No profit promises. It can go to zero.",
   "website": "https://sux-project.github.io/SUX/",
-  "metadataUri": "https://sux-project.github.io/SUX/metadata/sux.json",
+  "metadataUri": "https://ipfs.io/ipfs/bafkreiarnud7cmjc236k5lo5blxwkrgxazoq7fxwqmrrosdex6lmnfq55y",
   "imageUri": "https://sux-project.github.io/SUX/assets/avatar.png",
+  "mintAddress": "7bt7HpApyRY6Nkdv1D9LfG6Fg8LufSdmAcsX5mbYpump",
+  "pumpFunUrl": "https://pump.fun/coin/7bt7HpApyRY6Nkdv1D9LfG6Fg8LufSdmAcsX5mbYpump",
+  "dexScreenerUrl": "https://dexscreener.com/solana/4fd9voebpr4jgtmhcw2iwpbv9pudkcq4syfpthkhhcfo",
+  "pairAddress": "4Fd9VoebPR4jGTmhcW2iwpbv9PUdkCQ4SyfPTHkhhCFo",
   "targetSupply": "1000000000",
-  "targetDecimals": 2,
-  "targetSupplyNote": "Target supply is 1,000,000,000 SUX with 2 decimals. A standard launchpad route may fit the 1B supply narrative, but use manual SPL or a custom-supply tool if decimals=2 must be enforced.",
-  "manualSplFallback": {
-    "decimals": 2,
+  "targetDecimals": 6,
+  "targetSupplyNote": "SUX is already live on Pump.fun. On-chain supply is 1,000,000,000 SUX with 6 decimals. Decimals cannot be changed after mint creation.",
+  "actualOnChainState": {
+    "program": "spl-token-2022",
+    "decimals": 6,
+    "rawSupply": "1000000000000000",
     "humanSupply": "1000000000",
-    "mintAmountSmallestUnits": "100000000000",
-    "mintAuthorityPolicy": "Mint full supply once, then revoke mint authority.",
-    "freezeAuthorityPolicy": "Do not enable freeze authority. If enabled by a tool, revoke it before public launch.",
-    "metadataUpdatePolicy": "Keep update authority only until URLs and metadata render correctly, then either revoke it or publicly document who controls it."
+    "mintAuthority": null,
+    "freezeAuthority": null,
+    "metadataUpdateAuthority": null,
+    "metadataUri": "https://ipfs.io/ipfs/bafkreiarnud7cmjc236k5lo5blxwkrgxazoq7fxwqmrrosdex6lmnfq55y",
+    "website": "https://sux-project.github.io/SUX/"
+  },
+  "manualSplFallback": {
+    "decimals": 6,
+    "humanSupply": "1000000000",
+    "mintAmountSmallestUnits": "1000000000000000",
+    "mintAuthorityPolicy": "Already revoked on-chain.",
+    "freezeAuthorityPolicy": "No freeze authority on-chain.",
+    "metadataUpdatePolicy": "Metadata update authority is null on-chain; metadata cannot be edited."
   },
   "launchpadRoute": {
     "name": "SUX",
@@ -27,7 +42,7 @@
     "website": "https://sux-project.github.io/SUX/",
     "initialBuyPolicy": "Use zero or the smallest allowed amount. Document any creator purchase publicly.",
     "pairToken": "SOL by default; USDC only if the launch UI supports it and the community expects a stable quote.",
-    "supplyPolicy": "Only use this route if the UI explicitly supports a fixed 1,000,000,000 SUX supply and 2 decimals."
+    "supplyPolicy": "Live Pump.fun token supply is 1,000,000,000 SUX with 6 decimals."
   },
   "publicRiskNote": "SUX is entertainment-only. It is not financial advice, does not promise profit, and can go to zero."
 }

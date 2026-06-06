@@ -6,14 +6,14 @@ Chinese implementation guide: [`IMPLEMENTATION.zh-CN.md`](IMPLEMENTATION.zh-CN.m
 Token launch guide: [`TOKEN_LAUNCH.zh-CN.md`](TOKEN_LAUNCH.zh-CN.md)
 Founder ops guide: [`FOUNDER_OPS.zh-CN.md`](FOUNDER_OPS.zh-CN.md)
 Token config: [`token/sux-token-config.json`](token/sux-token-config.json)
-Metadata template: [`metadata/sux.json`](metadata/sux.json)
+Website metadata template: [`metadata/sux.json`](metadata/sux.json)
 
 ## Live token
 
-Mint address: `7bt7HpApyRY6Nkdv1D9LfG6Fg8LufSdmAcsX5mbYpump`
-Pump.fun: https://pump.fun/coin/7bt7HpApyRY6Nkdv1D9LfG6Fg8LufSdmAcsX5mbYpump
-DexScreener: https://dexscreener.com/solana/4fd9voebpr4jgtmhcw2iwpbv9pudkcq4syfpthkhhcfo
-On-chain metadata: https://ipfs.io/ipfs/bafkreiarnud7cmjc236k5lo5blxwkrgxazoq7fxwqmrrosdex6lmnfq55y
+Mint address: `HghaRa5UZcmuifQLgevpQ1b7VFVMehLeegUxC9NZpump`
+Pump.fun: https://pump.fun/coin/HghaRa5UZcmuifQLgevpQ1b7VFVMehLeegUxC9NZpump
+DexScreener: https://dexscreener.com/solana/heaqdvnkovuzxbc5tmixzms9yesrwmcfhkjsjb5qjdbg
+On-chain metadata: https://ipfs.io/ipfs/bafkreibnbgaqsdkdge4webh5xvga4qa5uvkddogajorhrrt77ck3rwj5ee
 
 On-chain status:
 
@@ -58,8 +58,8 @@ Add these before launch:
 
 - Project wallet:
 - Test transaction:
-- Token address: 7bt7HpApyRY6Nkdv1D9LfG6Fg8LufSdmAcsX5mbYpump
-- Token metadata: https://ipfs.io/ipfs/bafkreiarnud7cmjc236k5lo5blxwkrgxazoq7fxwqmrrosdex6lmnfq55y
+- Token address: HghaRa5UZcmuifQLgevpQ1b7VFVMehLeegUxC9NZpump
+- Token metadata: https://ipfs.io/ipfs/bafkreibnbgaqsdkdge4webh5xvga4qa5uvkddogajorhrrt77ck3rwj5ee
 - Social channel:
 - Budget sheet:
 

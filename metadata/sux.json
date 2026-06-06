@@ -1,0 +1,30 @@
+{
+  "name": "SUX",
+  "symbol": "SUX",
+  "description": "SUX is an entertainment-only meme token experiment built around an $80 public budget challenge. No profit promises. It can go to zero.",
+  "image": "https://sux-project.github.io/SUX/assets/avatar.png",
+  "external_url": "https://sux-project.github.io/SUX/",
+  "attributes": [
+    {
+      "trait_type": "Budget",
+      "value": "$80"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Public receipts"
+    },
+    {
+      "trait_type": "Risk",
+      "value": "Can go to zero"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "files": [
+      {
+        "uri": "https://sux-project.github.io/SUX/assets/avatar.png",
+        "type": "image/png"
+      }
+    ]
+  }
+}

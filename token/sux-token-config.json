@@ -1,0 +1,33 @@
+{
+  "project": "SUX",
+  "recommendedRoute": "manual-spl-for-strict-decimals-2",
+  "chain": "Solana",
+  "tokenStandard": "SPL token with metadata",
+  "name": "SUX",
+  "symbol": "SUX",
+  "description": "SUX is an entertainment-only meme token experiment built around an $80 public budget challenge. No profit promises. It can go to zero.",
+  "website": "https://sux-project.github.io/SUX/",
+  "metadataUri": "https://sux-project.github.io/SUX/metadata/sux.json",
+  "imageUri": "https://sux-project.github.io/SUX/assets/avatar.png",
+  "targetSupply": "1000000000",
+  "targetDecimals": 2,
+  "targetSupplyNote": "Target supply is 1,000,000,000 SUX with 2 decimals. A standard launchpad route may fit the 1B supply narrative, but use manual SPL or a custom-supply tool if decimals=2 must be enforced.",
+  "manualSplFallback": {
+    "decimals": 2,
+    "humanSupply": "1000000000",
+    "mintAmountSmallestUnits": "100000000000",
+    "mintAuthorityPolicy": "Mint full supply once, then revoke mint authority.",
+    "freezeAuthorityPolicy": "Do not enable freeze authority. If enabled by a tool, revoke it before public launch.",
+    "metadataUpdatePolicy": "Keep update authority only until URLs and metadata render correctly, then either revoke it or publicly document who controls it."
+  },
+  "launchpadRoute": {
+    "name": "SUX",
+    "ticker": "SUX",
+    "imageFile": "assets/avatar.png",
+    "website": "https://sux-project.github.io/SUX/",
+    "initialBuyPolicy": "Use zero or the smallest allowed amount. Document any creator purchase publicly.",
+    "pairToken": "SOL by default; USDC only if the launch UI supports it and the community expects a stable quote.",
+    "supplyPolicy": "Only use this route if the UI explicitly supports a fixed 1,000,000,000 SUX supply and 2 decimals."
+  },
+  "publicRiskNote": "SUX is entertainment-only. It is not financial advice, does not promise profit, and can go to zero."
+}
